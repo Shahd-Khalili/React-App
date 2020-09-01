@@ -1,6 +1,7 @@
 import React from 'react';
 import background from '../imgs/background.png';
 import john from '../imgs/john.jpg'
+import sticker from '../imgs/12.png'
 import './Header.css';
 
 
@@ -15,7 +16,8 @@ class Auther__Detail extends React.Component {
     return (
       <div>
         <img  className="Content__Background" src={background} alt="background"/>
-        <img className="Auther__Img" src={john} alt="john smith" ></img>
+        <img className="Auther__Img" src={john} alt="john smith"/>
+        <img class="Content__Sticker1" src={sticker} alt="Background"/>
         <div className="Auther__Idntity">Hello, i'm
           <span className =" Auther__Idntity--Name"> John</span>
           <span className="Auther__Idntity--Family"> Smith</span>
