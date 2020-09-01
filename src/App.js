@@ -1,7 +1,7 @@
 //Parent Component
 import React from 'react';
 import './App.css';
-import Header from './components/Header'
+import Header from './containers/Header'
 
 function App() {
   return (
