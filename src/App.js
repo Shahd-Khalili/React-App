@@ -1,12 +1,12 @@
 //Parent Component
 import React from 'react';
-import './App.css';
-import Header from './containers/Header'
+import './App.scss';
+import AuthorInformation from './containers/AuthorInformation'
 
 function App() {
   return (
     <div>
-     <Header />
+     <AuthorInformation/>
     </div>
   );
 }
