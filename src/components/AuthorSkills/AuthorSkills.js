@@ -1,7 +1,6 @@
 import React from 'react';
 import './StyleSkills.scss';
 
-
 class AuthorSkills extends React.Component {
 
      constructor(props) {
@@ -17,6 +16,7 @@ class AuthorSkills extends React.Component {
      }
 
     render () { 
+         const {Photoshop_Percentage, Illustrator_Percentage, Html_percentage, First_Period, Second_Period, Third_Period } = this.state;
           return (
                <div 
                     className="Content">
@@ -32,11 +32,11 @@ class AuthorSkills extends React.Component {
                                    id="file" 
                                    value="98"
                                    max="100"> 
-                                   {this.state.Photoshop_Percentage}
+                                   {Photoshop_Percentage}
                              </progress>
                              <div 
                                   className="Photoshop--Percentge"> 
-                                  {this.state.Photoshop_Percentage}
+                                  {Photoshop_Percentage}
                              </div>
                          </div> 
                          <div 
@@ -49,11 +49,11 @@ class AuthorSkills extends React.Component {
                                    id="file1" 
                                    value="70" 
                                    max="100"> 
-                                   {this.state.Illustrator_Percentage} 
+                                   {Illustrator_Percentage} 
                               </progress>
                               <div 
                                   className="Illustrator--Percentge"> 
-                                  {this.state.Illustrator_Percentage} 
+                                  {Illustrator_Percentage} 
                               </div>
                          </div>
                          <div 
@@ -67,27 +67,27 @@ class AuthorSkills extends React.Component {
                                   id="file2" 
                                    value="60" 
                                    max="100"> 
-                                   {this.state.Html_percentage} 
+                                   {Html_percentage} 
                               </progress>
                               <div 
                                    className="Html--Percentge"> 
-                                   {this.state.Html_percentage} 
+                                   {Html_percentage} 
                               </div>
                          </div> 
                     </div>
                     <div 
                          className="Content__History">
                          <div 
-                              className="History__box">
+                              className="History__Box">
                               <div 
-                                   className="box__Year">
-                                   {this.state.First_Period}
+                                   className="Box__Year">
+                                   {First_Period}
                               </div>
                               <div 
-                                   className="box__Paragraph">
+                                   className="Box__Paragraph">
                                    3r.Graphic Designer
                                    <a 
-                                      className="box__Paragraph--Email" 
+                                      className="Box__Paragraph--Email" 
                                       href="ABC@mysite.com" 
                                       target="_blank">
                                       ABC Inc
@@ -95,16 +95,16 @@ class AuthorSkills extends React.Component {
                                </div>
                         </div>
                         <div 
-                              className="History__box">
+                              className="History__Box">
                               <div 
-                                   className="box__Year">
-                                   {this.state.Second_Period}
+                                   className="Box__Year">
+                                   {Second_Period}
                               </div>
                               <div 
-                                   className="box__Paragraph">
+                                   className="Box__Paragraph">
                                    Graphic specialist
                                    <a 
-                                      className="box__Paragraph--Email"
+                                      className="Box__Paragraph--Email"
                                       href="contactme@mysite.com" 
                                       target="_blank">
                                       GRAPHICSTUDIO
@@ -112,16 +112,16 @@ class AuthorSkills extends React.Component {
                               </div>
                          </div>
                          <div  
-                              className="History__box" >
+                              className="History__Box" >
                               <div 
-                                   className="box__Year"> 
-                                   {this.state.Third_Period}
+                                   className="Box__Year"> 
+                                   {Third_Period}
                               </div>
                               <div 
-                                   className="box__Paragraph">
+                                   className="Box__Paragraph">
                                    Creativ Director
                                    <a
-                                      className="box__Paragraph--Email" 
+                                      className="Box__Paragraph--Email" 
                                       href="contactme@mysite.com" 
                                       target="_blank"> 
                                       DESIGN ARTS
@@ -133,6 +133,7 @@ class AuthorSkills extends React.Component {
           );
      }
 }
+
 export default AuthorSkills ;
   
   

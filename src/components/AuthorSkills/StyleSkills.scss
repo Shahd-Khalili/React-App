@@ -1,5 +1,7 @@
 @import "./src/color.scss";
+
 .Content{
+
     .Content__Progress {
         display: flex;
         justify-content: center;
@@ -53,20 +55,20 @@
         margin-left: 50px;
         margin-bottom: 20px;
 
-        .History__box {
+        .History__Box {
             font-size: 15px;
             color: $white;
             padding-right: 50px;
 
-            .box__Year{
+            .Box__Year{
                 margin-left: 15px;
             } 
     
-            .box__Paragraph {
+            .Box__Paragraph {
                 font-size: 8px;
                 padding-right: 10px;
-                
-                .box__Paragraph--Email {
+
+                .Box__Paragraph--Email {
                     color: $blue;
                     border-left: 2px solid $gray;
                     padding-left: 5px;

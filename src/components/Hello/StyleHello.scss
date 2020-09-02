@@ -1,0 +1,45 @@
+@import "./src/color.scss";
+
+.Folio {
+    margin-top: 400px;
+    margin-left: 500px;
+
+    .FolioImg {
+        width: 100%;
+        
+        &__Logo {
+            width: 80px;
+            position: absolute;
+            top: 550px;
+            left: 500px;
+        }
+          
+        &__Background {
+            width: 500px;
+            height: 200px;
+            position: absolute;
+            top: 500px;
+            left: 600px;
+        }
+    }
+
+    .Folio__Hello {
+        position: absolute;
+        top: 620px;
+        left: 500px;
+        font-size: 100px;
+        font-weight: bold;
+
+        .Folio__Discription {
+            color: $gray;
+            font-size: 10px;
+        }
+          
+        .Discription__PowerImg {
+            float: right;
+            margin-left: 80px;
+            width: 25px ;
+            height: 20px;
+        }
+    }
+}

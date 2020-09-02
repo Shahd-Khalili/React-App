@@ -20,7 +20,8 @@ class AuthorDetails extends React.Component {
           }
      }
 
-    render () {  
+    render () {
+         const { discraption, line, contact, hello, firstname, lastname }  = this.state;
           return (
                <div className="AuthorDetails">
                     <img  
@@ -50,26 +51,26 @@ class AuthorDetails extends React.Component {
                     />
                     <div  
                          className="AuthorDetails__Idntity">
-                         {this.state.hello}
+                         {hello}
                          <span
                               className =" AuthorDetails__Idntity--Name">
-                              {this.state.firstname}
+                              {firstname}
                          </span>
                          <span
                               className="AuthorDetails__Idntity--Family"> 
-                              {this.state.lastname}
+                              {lastname}
                          </span>
                     </div>
                     <div  
                          className="AuthorDetails__Discribtion">
-                         {this.state.discraption}
+                         {discraption}
                          <div>
-                           {this.state.line}
+                           {line}
                          </div>
                     </div>
                     <div  
                          className="AuthorDetails__Contact">
-                         {this.state.contact}   
+                         {contact}   
                          <a   
                              className="Contact__Email"
                              href="contactme@mysite.com" 
@@ -81,4 +82,5 @@ class AuthorDetails extends React.Component {
           );
      }
 }
+
 export default AuthorDetails;

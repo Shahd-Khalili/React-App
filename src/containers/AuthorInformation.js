@@ -12,5 +12,6 @@ function AuthorInformation() {
     </div>
   );
 }
+
 export default AuthorInformation;
 

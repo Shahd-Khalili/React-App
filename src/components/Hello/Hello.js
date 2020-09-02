@@ -1,6 +1,8 @@
 import React from 'react';
-import background from '../imgs/background.png';
-import logo from '../imgs/7.png';
+import background from '../../imgs/backg.png';
+import logo from '../../imgs/7.png';
+import power from '../../imgs/power.png';
+import './StyleHello.scss';
 
 class Hello extends React.Component {
 
@@ -11,10 +13,11 @@ class Hello extends React.Component {
             line: "nisi viverra,nec ullamcorper augue sagittis.Prion Faucibus Lorem nisl,",
         }
     }
-    
-    render () {  
+
+    render () { 
+        const { discraption, line } = this.state; 
         return (
-           <div>
+           <div className="Folio">
                <div 
                    class ="FolioImg">
                    <img 
@@ -35,12 +38,12 @@ class Hello extends React.Component {
                         class="Folio__Discription" >
                         <img 
                           class ="Discription__PowerImg" 
-                          src="3.png" 
+                          src={power} 
                           alt="power"
                         />
-                        {this.state.discraption}
+                        {discraption}
                         <div>
-                            {this.state.line}
+                            {line}
                         </div>
                    </div>
                </div>
