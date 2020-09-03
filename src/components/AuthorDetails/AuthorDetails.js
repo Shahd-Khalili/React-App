@@ -15,13 +15,20 @@ class AuthorDetails extends React.Component {
                line: "eleifend urna pellentesque eget",
                contact: "Prion scelerisque odio eu nisi viverra,nec ullamcorper gue  ",
                hello: "Hello, i'm",
-               firstname: " John",
-               lastname: " Smith"
+               firstName: " John",
+               lastName: " Smith"
           }
      }
 
     render () {
-         const { discraption, line, contact, hello, firstname, lastname }  = this.state;
+         const { 
+               discraption,
+               line, 
+               contact, 
+               hello, 
+               firstName, 
+               lastName 
+          }  = this.state;
           return (
                <div className="AuthorDetails">
                     <img  
@@ -54,11 +61,11 @@ class AuthorDetails extends React.Component {
                          {hello}
                          <span
                               className =" AuthorDetails__Idntity--Name">
-                              {firstname}
+                              {firstName}
                          </span>
                          <span
                               className="AuthorDetails__Idntity--Family"> 
-                              {lastname}
+                              {lastName}
                          </span>
                     </div>
                     <div  

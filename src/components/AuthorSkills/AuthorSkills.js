@@ -6,17 +6,24 @@ class AuthorSkills extends React.Component {
      constructor(props) {
           super(props);
           this.state = { 
-               Photoshop_Percentage: '98%',
-               Illustrator_Percentage: '70%',
-               Html_percentage: '60%',
-               First_Period: '2000-2008',
-               Second_Period: '2008-2010',
-               Third_Period: '2010-precent'
+               photoshopPercentage: '98%',
+               illustratorPercentage: '70%',
+               htmlpercentage: '60%',
+               firstPeriod: '2000-2008',
+               secondPeriod: '2008-2010',
+               thirdPeriod: '2010-precent'
           }
      }
 
     render () { 
-         const {Photoshop_Percentage, Illustrator_Percentage, Html_percentage, First_Period, Second_Period, Third_Period } = this.state;
+         const {
+              photoshopPercentage, 
+              illustratorPercentage, 
+              htmlpercentage, 
+              firstPeriod, 
+              secondPeriod, 
+              thirdPeriod 
+          } = this.state;
           return (
                <div 
                     className="Content">
@@ -32,11 +39,11 @@ class AuthorSkills extends React.Component {
                                    id="file" 
                                    value="98"
                                    max="100"> 
-                                   {Photoshop_Percentage}
+                                   {photoshopPercentage}
                              </progress>
                              <div 
                                   className="Photoshop--Percentge"> 
-                                  {Photoshop_Percentage}
+                                  {photoshopPercentage}
                              </div>
                          </div> 
                          <div 
@@ -49,11 +56,11 @@ class AuthorSkills extends React.Component {
                                    id="file1" 
                                    value="70" 
                                    max="100"> 
-                                   {Illustrator_Percentage} 
+                                   {illustratorPercentage} 
                               </progress>
                               <div 
                                   className="Illustrator--Percentge"> 
-                                  {Illustrator_Percentage} 
+                                  {illustratorPercentage} 
                               </div>
                          </div>
                          <div 
@@ -67,11 +74,11 @@ class AuthorSkills extends React.Component {
                                   id="file2" 
                                    value="60" 
                                    max="100"> 
-                                   {Html_percentage} 
+                                   {htmlpercentage} 
                               </progress>
                               <div 
                                    className="Html--Percentge"> 
-                                   {Html_percentage} 
+                                   {htmlpercentage} 
                               </div>
                          </div> 
                     </div>
@@ -81,7 +88,7 @@ class AuthorSkills extends React.Component {
                               className="History__Box">
                               <div 
                                    className="Box__Year">
-                                   {First_Period}
+                                   {firstPeriod}
                               </div>
                               <div 
                                    className="Box__Paragraph">
@@ -98,7 +105,7 @@ class AuthorSkills extends React.Component {
                               className="History__Box">
                               <div 
                                    className="Box__Year">
-                                   {Second_Period}
+                                   {secondPeriod}
                               </div>
                               <div 
                                    className="Box__Paragraph">
@@ -115,7 +122,7 @@ class AuthorSkills extends React.Component {
                               className="History__Box" >
                               <div 
                                    className="Box__Year"> 
-                                   {Third_Period}
+                                   {thirdPeriod}
                               </div>
                               <div 
                                    className="Box__Paragraph">

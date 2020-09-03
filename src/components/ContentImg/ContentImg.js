@@ -8,7 +8,6 @@ import smallwave from '../../imgs/5.png';
 import sticker3 from '../../imgs/6.png'
 import './StyleContentImg.scss';
 
-
 class ContentImg extends React.Component {
 
     constructor(props) {
