@@ -7,13 +7,13 @@ class ContactInfo extends React.Component {
     constructor(props) {
          super(props);
          this.state = { 
-              loading: "L O A D I N G",
+              loading: "LOADING",
               discribtion: "Donec commodo leo est. quis eleifend urna pellentesque ege.Prion scelerisque odio eu nisi viverra,",
               emailDiscription: "nec ullamcorper augue sagittis.Prion Faucibus Lor ",
               email: "contactme@mysite.com",
-              facebook: "F A C E B O O K" ,
-              twitter: "T W I T T E R",
-              dribbble: "D R I B B B L E"
+              facebook: "FACEBOOK" ,
+              twitter: "TWITTER",
+              dribbble: "DRIBBBLE"
             }
     }
 
