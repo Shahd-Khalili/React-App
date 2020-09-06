@@ -1,0 +1,79 @@
+@import "./src/color.scss";
+
+.Content{
+
+    .Content__Progress {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .Content__Progress--Photoshop {
+        font-size: 10px;
+        color: $white;
+        padding-right: 60px;
+
+        .Photoshop--Lable {
+            margin-left: 20px;
+        }
+  
+        .Photoshop--Percentge{
+            margin-left: 30px;
+        }
+    } 
+   
+    .Content__Progress--Illustrator {
+        font-size: 10px;
+        color: $white;
+        padding-right: 60px;
+
+        .Illustrator--Lable {
+            margin-left: 20px;
+        }
+      
+        .Illustrator--Percentge{
+            margin-left: 30px;
+        }
+    }
+  
+    .Content__Progress--Html {
+        font-size: 10px;
+        color: $white;
+
+        .Html--Lable {
+            margin-left: 20px;
+        }
+      
+        .Html--Percentge{
+            margin-left: 30px;
+        }
+    }
+  
+    .Content__History{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-bottom: 20px;
+
+        .History__Box {
+            font-size: 15px;
+            color: $white;
+            padding-right: 50px;
+
+            .Box__Year{
+                margin-left: 15px;
+            } 
+    
+            .Box__Paragraph {
+                font-size: 8px;
+                padding-right: 10px;
+
+                .Box__Paragraph--Email {
+                    color: $blue;
+                    border-left: 2px solid $gray;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
+}

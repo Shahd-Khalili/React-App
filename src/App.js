@@ -1,13 +1,16 @@
 //Parent Component
 import React from 'react';
-import './App.css';
-import Header from './containers/Header'
+import AuthorInformation from './containers/AuthorInformation'
+import './App.scss';
+import FOlioPage from './containers/FOlioPage';
 
 function App() {
   return (
     <div>
-     <Header />
+     <AuthorInformation/>
+     <FOlioPage/>
     </div>
   );
 }
+
 export default App;
