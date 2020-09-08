@@ -1,53 +1,55 @@
 .FolioImg {
-    margin-top: 850px;
+    margin-top: 450px;
 
     .FolioImg__ContentDscription {
         float: left;
-        margin-left: 500px;
+        margin-left: 300px;
         padding: 0%;
     
         .ContentDscription--WordImg {
-            width: 345px;
-            height: 345px;
+            width: 450px;
+            height: 450px;
         }
 
         .ContentDscription--CupImg {
-            width: 345px;
-            height: 340px;
+            width: 450px;
+            height: 445px;
         }
 
         .ContentDscription--GirlImg {
-            width: 345px;
-            height: 350px;
+            width: 450px;
+            height: 450px;
         }
 
         .ContentDscription--TshirtImg {
-            width: 345px;
-            height: 350px;
+            width: 450px;
+            height: 450px;
         }
     }
     
     .ContentDscription__WaveSticker {
         position: absolute;
-        top: 880px;
-        right: 310px;
+        top: 550px;
+        right: 300px;
         width: 30px;
         height: 30px;
     }
 
     .ContentDscription__OnewaveSticker {
         position: absolute;
-        top: 1480px;
-        right: 310px;
+        top: 1050px;
+        right: 300px;
         width: 30px;
         height: 30px;
     }
 
     .ContentDscription__StickerImg {
         position: absolute;
-        top: 1400px;
-        left: 450px;
+        top: 1200px;
+        left: 250px;
         width: 30px;
         height: 30px;
     }
+
+
 }

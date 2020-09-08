@@ -2,7 +2,6 @@
 
 .Folio {
     margin-top: 400px;
-    margin-left: 500px;
 
     .FolioImg {
         width: 100%;
@@ -10,23 +9,23 @@
         &__Logo {
             width: 80px;
             position: absolute;
-            top: 550px;
-            left: 500px;
+            top: 200px;
+            left: 280px;
         }
           
         &__Background {
-            width: 500px;
+            width: 800px;
             height: 200px;
             position: absolute;
-            top: 500px;
-            left: 600px;
+            top: 100px;
+            left: 400px;
         }
     }
 
     .Folio__Hello {
         position: absolute;
-        top: 620px;
-        left: 500px;
+        top: 230px;
+        left: 305px;
         font-size: 100px;
         font-weight: bold;
 
