@@ -5,6 +5,7 @@
     .Content__Progress {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         padding-bottom: 20px;
     }
 
@@ -52,6 +53,7 @@
     .Content__History{
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         margin-left: 50px;
         margin-bottom: 20px;
 

@@ -19,25 +19,25 @@ class Hello extends React.Component {
         return (
            <div className="Folio">
                <div 
-                   class ="FolioImg">
+                   className="FolioImg">
                    <img 
-                       class ="FolioImg__Logo" 
+                       className="FolioImg__Logo" 
                        src={logo} 
                        alt="FOLio"
                     />
                    <img 
-                       class ="FolioImg__Background" 
+                       className="FolioImg__Background" 
                         src={background} 
                         alt="Background"
                     />
                </div>
                <div
-                   class="Folio__Hello">
+                   className="Folio__Hello">
                     Hello,
                    <div 
-                        class="Folio__Discription" >
+                        className="Folio__Discription" >
                         <img 
-                          class ="Discription__PowerImg" 
+                          className="Discription__PowerImg" 
                           src={power} 
                           alt="power"
                         />

@@ -6,7 +6,7 @@ import ContactInfo from '../components/ContactInfo/ContactInfo';
 
 function FOlioPage() {
   return (
-    <div>
+    <div className="Folio">
         <Hello/>
         <ContentImg/>
         <ContactInfo/>

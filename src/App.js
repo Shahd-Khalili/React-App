@@ -1,19 +1,31 @@
 //Parent Component
 import React from 'react';
-import { BrowserRouter , Route } from 'react-router-dom'
+import { BrowserRouter , Route, Switch} from 'react-router-dom';
 import Nav from './components/Nav/Nav'
 import FOlioPage from './containers/FOlioPage';
 import AuthorInformation from './containers/AuthorInformation';
+import NoMatch from './components/Nomatch'
 import './App.scss';
 
 function App() {
+  
   return (
     <BrowserRouter>
       <div>
-        <Nav />
-        <Route  exact path="/" component={FOlioPage}/>
-        <Route path="/About" component={AuthorInformation}/>
-
+        <Nav/>
+        <Switch>
+          <Route 
+            exact path="/"
+            component={FOlioPage}
+          />   
+          <Route 
+            exact path="/About" 
+            component={AuthorInformation}
+          /> 
+          <Route 
+            component={NoMatch} 
+          /> 
+        </Switch>
       </div>
     </BrowserRouter>
   );

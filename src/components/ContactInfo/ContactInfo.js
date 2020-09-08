@@ -30,48 +30,48 @@ class ContactInfo extends React.Component {
          return (
             <div className="ContactInfo">
                 <div 
-                   class="ContactInfo__Load">
+                   className="ContactInfo__Load">
                    {loading}
                 </div>
                 <img 
-                   class="ContactInfo__ContactImg " 
+                   className="ContactInfo__ContactImg " 
                    src={MobileImg} 
                    alt="Mobile Img"
                 />
                 <div 
-                   class="ContactInfo__Mobile">
+                   className="ContactInfo__Mobile">
                    1.800.123.456
                 </div>
                 <div  
-                    class="ContactInfo__EmailParagraph ">
+                    className="ContactInfo__EmailParagraph ">
                     {discribtion}
                 </div>
                 <div 
                     className= "ContactInfo__EmailParagraph"> 
                     {emailDiscription}
                     <a 
-                       class="ContactInfo__Email" 
+                       className="ContactInfo__Email" 
                        href="contactme@mysite.com"
                        target="_blank">
                        {email}
                     </a>
                 </div>
                 <div 
-                    class="ContactInfo__Links">
+                    className="ContactInfo__Links">
                     <a 
-                      class="Links__Item" 
+                      className="Links__Item" 
                       href="facebook.com" 
                       target="_blank">
                       {facebook}
                     </a>
                     <a 
-                      class="Links__Item" 
+                      className="Links__Item" 
                       href="Twitter.com" 
                       target="_blank">
                       {twitter}
                     </a>
                     <a 
-                      class="Links__Item" 
+                      className="Links__Item" 
                       href="DRIBBBLE.com" 
                       target="_blank">
                       {dribbble}
